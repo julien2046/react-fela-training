@@ -8,7 +8,7 @@ const ButtonGroupStyles = () => {
       margin: "0 0 0.5em"
     },
     "> div": {
-      display: "flex";
+      display: "flex",
       flexWrap: "wrap"
     }
   };

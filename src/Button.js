@@ -22,7 +22,7 @@ const Button = ({ active, theme: { mainColor } }) => {
     padding: "1em",
     margin: "0 0 calc(5px + 1em)",
     outline: "none"
-  }
+  };
 
   [":hover", ":focus"].forEach(
     value => (style[value] = { background: darken(0.1, buttonColor) })

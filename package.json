@@ -4,8 +4,12 @@
   "private": true,
   "dependencies": {
     "fela": "^6.2.3",
+    "fela-plugin-fallback-value": "^5.0.20",
+    "fela-plugin-prefixer": "^5.0.21",
+    "polished": "^2.3.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
+    "react-fela": "^8.0.4",
     "react-scripts": "2.1.0"
   },
   "scripts": {
