@@ -2128,6 +2128,12 @@ css-declaration-sorter@^4.0.1:
     postcss "^7.0.1"
     timsort "^0.3.0"
 
+css-in-js-utils@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/css-in-js-utils/-/css-in-js-utils-3.0.0.tgz#4379185f5cc79f9eba39b4e795c317f253ffaa40"
+  dependencies:
+    hyphenate-style-name "^1.0.2"
+
 css-loader@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-1.0.0.tgz#9f46aaa5ca41dbe31860e3b62b8e23c42916bf56"
@@ -2290,6 +2296,10 @@ cssstyle@^1.0.0, cssstyle@^1.1.1:
   resolved "https://registry.yarnpkg.com/cssstyle/-/cssstyle-1.1.1.tgz#18b038a9c44d65f7a8e428a653b9f6fe42faf5fb"
   dependencies:
     cssom "0.3.x"
+
+csstype@^2.5.5:
+  version "2.5.7"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.5.7.tgz#bf9235d5872141eccfb2d16d82993c6b149179ff"
 
 cyclist@~0.2.2:
   version "0.2.2"
@@ -3098,6 +3108,10 @@ fast-levenshtein@~2.0.4:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
 
+fast-loops@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/fast-loops/-/fast-loops-1.0.1.tgz#a3d33e71654a7e6e67d7c2de0fee4ea11c6f2526"
+
 fastparse@^1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/fastparse/-/fastparse-1.1.2.tgz#91728c5a5942eced8531283c79441ee4122c35a9"
@@ -3119,6 +3133,24 @@ fb-watchman@^2.0.0:
   resolved "https://registry.yarnpkg.com/fb-watchman/-/fb-watchman-2.0.0.tgz#54e9abf7dfa2f26cd9b1636c588c1afc05de5d58"
   dependencies:
     bser "^2.0.0"
+
+fela-utils@^8.1.3:
+  version "8.1.3"
+  resolved "https://registry.yarnpkg.com/fela-utils/-/fela-utils-8.1.3.tgz#b2b19b410bf646d928362195aff57b34101576e6"
+  dependencies:
+    css-in-js-utils "^3.0.0"
+    fast-loops "^1.0.0"
+    string-hash "^1.1.3"
+
+fela@^6.2.3:
+  version "6.2.3"
+  resolved "https://registry.yarnpkg.com/fela/-/fela-6.2.3.tgz#ad25e82c256ba3277ee244a6cddf30734945b565"
+  dependencies:
+    css-in-js-utils "^3.0.0"
+    csstype "^2.5.5"
+    fast-loops "^1.0.0"
+    fela-utils "^8.1.3"
+    isobject "^3.0.1"
 
 figgy-pudding@^3.1.0, figgy-pudding@^3.5.1:
   version "3.5.1"
@@ -3804,6 +3836,10 @@ http-signature@~1.2.0:
 https-browserify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
+
+hyphenate-style-name@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/hyphenate-style-name/-/hyphenate-style-name-1.0.2.tgz#31160a36930adaf1fc04c6074f7eb41465d4ec4b"
 
 iconv-lite@0.4.23:
   version "0.4.23"
@@ -6679,7 +6715,7 @@ react-dev-utils@^6.1.0:
     strip-ansi "4.0.0"
     text-table "0.2.0"
 
-react-dom@16.6.0:
+react-dom@^16.6.0:
   version "16.6.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.6.0.tgz#6375b8391e019a632a89a0988bce85f0cc87a92f"
   dependencies:
@@ -6746,7 +6782,7 @@ react-scripts@2.1.0:
   optionalDependencies:
     fsevents "1.2.4"
 
-react@16.6.0:
+react@^16.6.0:
   version "16.6.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.6.0.tgz#b34761cfaf3e30f5508bc732fb4736730b7da246"
   dependencies:
@@ -7538,6 +7574,10 @@ stream-http@^2.7.2:
 stream-shift@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/stream-shift/-/stream-shift-1.0.0.tgz#d5c752825e5367e786f78e18e445ea223a155952"
+
+string-hash@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/string-hash/-/string-hash-1.1.3.tgz#e8aafc0ac1855b4666929ed7dd1275df5d6c811b"
 
 string-length@^2.0.0:
   version "2.0.0"
